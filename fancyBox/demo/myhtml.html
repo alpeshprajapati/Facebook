@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fancyBox - Fancy jQuery Lightbox Alternative | Demonstration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.9.0.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) 
+	<script type="text/javascript" src="../lib/jquery.mousewheel-3.0.6.pack.js"></script>
+-->
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.4"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.4" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.fancybox').fancybox();
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+</head>
+<body>
+	<h1>fancyBox</h1>
+
+	<h3>Simple image gallery</h3>
+	<p>
+		<a class="fancybox" href="1_b.jpg" data-fancybox-group="gallery" title="Alpesh 1"><img src="1_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="2_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="3_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="4_s.jpg" alt="" /></a>
+	</p>
+
+</body>
+</html>

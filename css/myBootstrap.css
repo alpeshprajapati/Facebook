@@ -1,0 +1,50 @@
+body{
+	background: url('../Images/green/pattern-4.png');
+	color: white;
+}
+
+/*Index Page*/
+h3{
+	text-align: center;
+	margin-top:15%;
+}
+
+#fbconnect{
+	margin-left:41%;
+}
+
+#divName{
+        text-align: center;
+	color: white;
+	font-size: 22px;
+        margin-bottom: 20px;
+}
+
+#logout{
+   margin-left: 90%;
+   font-size: 18px;
+}
+
+a{
+	color:violet;
+	text-decoration: none;
+}
+
+a:hover{
+	color:lightblue;
+	text-decoration: none;
+}
+
+/*Success.php Page*/
+#container{
+	margin: 20 auto;
+	height: auto;
+}
+
+h4,p{
+	text-align: center;
+}
+
+.download{
+	margin: 0px auto;
+}

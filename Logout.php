@@ -1,3 +1,9 @@
+<!--/**
+* 
+*	Description for file : Logs the user out of facebook
+*/
+/*-->
+
 <?php
 require_once("facebook.php");
 require_once("fbConfig.php");

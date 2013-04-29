@@ -4,8 +4,7 @@
 *
 *	Long description for file : This page downloads photos of an album user has clicked on.
 *   							It received albumId from GET request. 	
-*/
-/*-->
+**/-->
 
 <?php
 	session_start();

@@ -4,8 +4,7 @@
 *
 *	Long description for file : It pulls out logged user's albums.
 *
-*/
-/*-->
+*/-->
 
 <?php
 	session_start();

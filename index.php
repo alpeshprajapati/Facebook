@@ -4,8 +4,7 @@
 *
 *	Long description for file : User can log into his facebook Account.
 *   							Once Logged in, User will be redirected to Success.php page. 	
-*/
-/*-->
+*/-->
 
 <?php
 	session_start();
